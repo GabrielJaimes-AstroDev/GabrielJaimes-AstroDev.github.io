@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Bolivian Virtual Observatory</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <a href="" class="navbar-brand p-0">
+                <h1 class="text-primary"><img src="img/logo.png" alt="Logo">BVO</h1>
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link">Inicio</a>
+                    <a href="vision-mision.html" class="nav-item nav-link">Visión y Misión</a>
+                    <!-- <a href="equipo.html" class="nav-item nav-link">Equipo</a> -->
+                    <a href="proyecto.html" class="nav-item nav-link">Sobre el Proyecto</a>
+                    <a href="convocatoria.html" class="nav-item nav-link">Convocatoria 2024</a>
+                    <!-- <a href="galeria.html" class="nav-item nav-link">Galería de Fotos</a> -->
+                    <!-- <a href="colaboradores.html" class="nav-item nav-link">Organismos Colaboradores</a> -->
+                    <!-- <a href="contacto.html" class="nav-item nav-link">Contacto</a> -->
+                </div>
+                <!-- <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="service.html" class="nav-item nav-link">Service</a>
+                <a href="blog.html" class="nav-item nav-link">Blog</a> -->
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Menu</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="index.html" class="dropdown-item">Inicio</a>
+                        <a href="vision-mision.html" class="dropdown-item">Visión y Misión</a>
+                        <a href="equipo.html" class="dropdown-item">Nuestro Equipo</a>
+                        <a href="proyecto.html" class="dropdown-item">Sobre el Proyecto</a>
+                        <a href="convocatoria.html" class="dropdown-item">Convocatoria 2024</a>
+                        <a href="galeria.html" class="dropdown-item">Galería de Fotos</a>
+                        <a href="colaboradores.html" class="dropdown-item">Organismos Colaboradores</a>
+                        <a href="contacto.html" class="dropdown-item">Contacto</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contacto</a>
+            </div>
+            <!-- <div class="d-none d-xl-flex me-3">
+                <div class="d-flex flex-column pe-3 border-end border-primary">
+                    <span class="text-body">Get Free Delivery</span>
+                    <a href="tel:+4733378901"><span class="text-primary">Free: + 0123 456 7890</span></a>
+                </div>
+            </div>
+            <button class="btn btn-primary btn-md-square d-flex flex-shrink-0 mb-3 mb-lg-0 rounded-circle me-3"
+                data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+            <a href="" class="btn btn-primary rounded-pill d-inline-flex flex-shrink-0 py-2 px-4">Order Now</a> -->
+    </div>
+    </nav>
+
+    <div class="container-fluid bg-breadcrumb">
+        <div class="container text-center py-5" style="max-width: 900px;">
+            <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Misión y Visión</h4>
+            <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Menu</a></li>
+                <li class="breadcrumb-item active text-primary">Misión y Visión</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- Carousel Start -->
+    
+    <!-- Navbar & Hero End -->
+
+    <!-- Modal Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h4 class="modal-title mb-0" id="exampleModalLabel">Search by keyword</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center">
+                    <div class="input-group w-75 mx-auto d-flex">
+                        <input type="search" class="form-control p-3" placeholder="keywords"
+                            aria-describedby="search-icon-1">
+                        <span id="search-icon-1" class="input-group-text btn border p-3"><i
+                                class="fa fa-search text-white"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Search End -->
+
+    <!-- feature Start -->
+    <div class="container-fluid feature bg-light py-4">
+        <div class="container py-5">
+            <!-- Misión -->
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 700px;">
+                <h1 class="display-3 text-capitalize mb-5">Misión</h1>
+                <p class="mb-3">
+                    La misión del Bolivian Virtual Observatory (BVO) es democratizar el acceso a la investigación astronómica y astrofotográfica en Bolivia a través de talleres gratuitos y una red de telescopios remotos en observatorios profesionales. Buscamos superar las barreras de accesibilidad a telescopios de alta calidad y los altos costos de adquisición de datos científicos, proporcionando una plataforma accesible para estudiantes, educadores y astrónomos aficionados. Nuestra meta es capacitar a los participantes en la observación astronómica y el procesamiento de datos, fomentando el desarrollo de investigaciones significativas y el avance en la educación en astronomía.
+                </p>
+            </div>
+    
+            <!-- Visión -->
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 700px;">
+                <h1 class="display-3 text-capitalize mb-5">Visión</h1>
+                <p class="mb-3">
+                    Nuestra visión es convertir al Bolivian Virtual Observatory en un referente en la capacitación en astronomía y astrofotografía en Latinoamérica. Aspiramos a construir una comunidad de investigadores y entusiastas de la astronomía en Bolivia que utilice tecnologías avanzadas para el estudio de fenómenos astronómicos. A través de la colaboración con instituciones internacionales y nacionales, y mediante el uso de telescopios en ubicaciones óptimas, pretendemos impulsar el desarrollo científico y educativo, promoviendo la astronomía como una herramienta educativa y de investigación en Bolivia.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- feature End -->
+
+
+ <!-- Footer Start -->
+<div class="container-fluid footer py-2 aliwow fadeIn" data-wow-delay="0.2s">
+    <div class="container py-1">
+        <!-- Enlaces Rápidos y Redes Sociales en una fila -->
+        <div class="row g-1 mb-1 align-items-center">
+            <!-- Enlaces Rápidos -->
+            <div class="col-lg-6">
+                <!-- <h4 class="text-white mb-7">Enlaces Rápidos</h4> -->
+                <ul class="list-unstyled d-flex flex-wrap">
+                    <li><a href="#" class="text-white me-3">Inicio</a></li>
+                    <li><a href="#" class="text-white me-3">Acerca de BVO</a></li>
+                    <li><a href="#" class="text-white me-3">Programas</a></li>
+                    <li><a href="#" class="text-white me-3">Convocatoria</a></li>
+                    <li><a href="#" class="text-white me-3">Equipo & Beneficiarios</a></li>
+                    <li><a href="#" class="text-white">Contacto</a></li>
+                </ul>
+            </div>
+
+            <!-- Redes Sociales -->
+            <div class="col-lg-6">
+                <!-- <h4 class="text-white mb-4">Redes Sociales</h4> -->
+                <div class="d-flex align-items-center justify-content-center justify-content-lg-end">
+                    <a class="btn btn-secondary btn-md-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-secondary btn-md-square rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-secondary btn-md-square rounded-circle me-3" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-secondary btn-md-square rounded-circle me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Aviso Legal -->
+        <!-- <div class="row g-5">
+            <div class="col-12">
+                <h4 class="text-white mb-4">Aviso Legal</h4>
+                <p class="text-muted">© 2024 BVO. Todos los derechos reservados. Todos los contenidos de este sitio están protegidos por derechos de autor y no pueden ser reproducidos sin permiso expreso.</p>
+            </div>
+        </div> -->
+    </div>
+</div>
+<!-- Footer End -->
+
+
+<div class="container-fluid copyright py-4">
+    <div class="container">
+        <div class="row g-4 align-items-center">
+            <div class="col-md-12 text-center text-md-start mb-md-0">
+                <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>2024 BVO</a>. Todos los derechos reservados. Todos los contenidos de este sitio están protegidos por derechos de autor y no pueden ser reproducidos sin permiso expreso</span>
+            </div>
+            <div class="col-md-6 text-center text-md-end text-body">
+                <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                <!--/*** If you'd like to use the template without the below author’s credit link/a-->
+
+  
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-secondary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
