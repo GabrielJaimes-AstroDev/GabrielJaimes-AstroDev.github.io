@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <a href="" class="navbar-brand p-0">
+                <h1 class="text-primary"><img src="img/logo.png" alt="Logo"> BVO</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link">Inicio</a>
+                    <a href="vision-mision.html" class="nav-item nav-link">Visión y Misión</a>
+                    <a href="equipo.html" class="nav-item nav-link">Equipo</a>
+                    <a href="proyecto.html" class="nav-item nav-link">Sobre el Proyecto</a>
+                    <a href="convocatoria.html" class="nav-item nav-link">Convocatoria 2024</a>
+                    <a href="galeria.html" class="nav-item nav-link">Galería de Fotos</a>
+                    <!-- <a href="colaboradores.html" class="nav-item nav-link">Organismos Colaboradores</a> -->
+                </div>
+                <!-- <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="service.html" class="nav-item nav-link">Service</a>
+                <a href="blog.html" class="nav-item nav-link">Blog</a> -->
+                <!-- <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Menu</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="index.html" class="dropdown-item">Inicio</a>
+                        <a href="vision-mision.html" class="dropdown-item">Visión y Misión</a>
+                        <a href="equipo.html" class="dropdown-item">Nuestro Equipo</a>
+                        <a href="proyecto.html" class="dropdown-item">Sobre el Proyecto</a>
+                        <a href="convocatoria.html" class="dropdown-item">Convocatoria 2024</a>
+                        <a href="galeria.html" class="dropdown-item">Galería de Fotos</a>
+                        <a href="colaboradores.html" class="dropdown-item">Organismos Colaboradores</a>
+                        <a href="contacto.html" class="dropdown-item">Contacto</a>
+                    </div>
+                </div> -->
+                <a href="contact.html" class="nav-item nav-link">Contacto</a>
+            </div>
+    </div>
+    </nav>
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-breadcrumb">
+        <div class="container text-center py-5" style="max-width: 900px;">
+            <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Equipo</h4>
+            <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                <li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
+                <li class="breadcrumb-item"><a href="#" class="text-white">Menu</a></li>
+                <li class="breadcrumb-item active text-primary">Equipo</li>
+            </ol>
+        </div>
+    </div>
+    <!-- Header End -->
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- Modal Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h4 class="modal-title mb-0" id="exampleModalLabel">Search by keyword</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center">
+                    <div class="input-group w-75 mx-auto d-flex">
+                        <input type="search" class="form-control p-3" placeholder="keywords"
+                            aria-describedby="search-icon-1">
+                        <span id="search-icon-1" class="input-group-text btn border p-3"><i
+                                class="fa fa-search text-white"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Search End -->
+
+    <!-- Nuestro Equipo Carousel Start -->
+    <div id="teamCarousel" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#teamCarousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#teamCarousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#teamCarousel" data-bs-slide-to="2"></li>
+            <li data-bs-target="#teamCarousel" data-bs-slide-to="3"></li>
+            <li data-bs-target="#teamCarousel" data-bs-slide-to="4"></li>
+            <li data-bs-target="#teamCarousel" data-bs-slide-to="5"></li>
+            <li data-bs-target="#teamCarousel" data-bs-slide-to="6"></li>
+            <li data-bs-target="#teamCarousel" data-bs-slide-to="7"></li>
+        </ol>
+        
+        <div class="container-fluid team pb-5 pt-5">
+            <div class="carousel-inner">
+                <!-- Primer elemento del carrusel, con clase active -->
+                <div class="carousel-item active">
+                    <div class="row justify-content-center g-4">
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item p-4">
+                                <div class="team-inner rounded">
+                                    <div class="team-img">
+                                        <img src="img/Selim.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                    </div>
+                                    <div class="bg-light rounded-bottom text-center py-4">
+                                        <h4 class="mb-3">Franklin Selim Vidangos Crespo</h4>
+                                        <p class="mb-0">Observador BVO</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Segundo elemento del carrusel -->
+                <div class="carousel-item">
+                    <div class="row justify-content-center g-4">
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item p-4">
+                                <div class="team-inner rounded">
+                                    <div class="team-img">
+                                        <img src="img/Gabriel.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                    </div>
+                                    <div class="bg-light rounded-bottom text-center py-4">
+                                        <h4 class="mb-3">Gabriel Jaimes Illanes</h4>
+                                        <p class="mb-0">Investigador Principal</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Tercer elemento del carrusel -->
+                <div class="carousel-item">
+                    <div class="row justify-content-center g-4">
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item p-4">
+                                <div class="team-inner rounded">
+                                    <div class="team-img">
+                                        <img src="img/Moises.png" class="img-fluid rounded-top w-100" alt="Image">
+                                    </div>
+                                    <div class="bg-light rounded-bottom text-center py-4">
+                                        <h4 class="mb-3">Moises Monter Reyes Ortiz</h4>
+                                        <p class="mb-0">Liga de Astronomía de Cochabamba</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Cuarto elemento del carrusel -->
+                <div class="carousel-item">
+                    <div class="row justify-content-center g-4">
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item p-4">
+                                <div class="team-inner rounded">
+                                    <div class="team-img">
+                                        <img src="img/Viviana.png" class="img-fluid rounded-top w-100" alt="Image">
+                                    </div>
+                                    <div class="bg-light rounded-bottom text-center py-4">
+                                        <h4 class="mb-3">Viviana Nora Guerra Navarro</h4>
+                                        <p class="mb-0">Pasante</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Quinto elemento del carrusel -->
+                <div class="carousel-item">
+                    <div class="row justify-content-center g-4">
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item p-4">
+                                <div class="team-inner rounded">
+                                    <div class="team-img">
+                                        <img src="img/Sarah.png" class="img-fluid rounded-top w-100" alt="Image">
+                                    </div>
+                                    <div class="bg-light rounded-bottom text-center py-4">
+                                        <h4 class="mb-3">Sarah Camila Aranibar Velasquez</h4>
+                                        <p class="mb-0">Pasante</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Sexto elemento del carrusel -->
+                <div class="carousel-item">
+                    <div class="row justify-content-center g-4">
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item p-4">
+                                <div class="team-inner rounded">
+                                    <div class="team-img">
+                                        <img src="img/Coral.png" class="img-fluid rounded-top w-100" alt="Image">
+                                    </div>
+                                    <div class="bg-light rounded-bottom text-center py-4">
+                                        <h4 class="mb-3">Themis Coral Ovando Villegas</h4>
+                                        <p class="mb-0">Observadora BVO</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Séptimo elemento del carrusel -->
+                <!-- <div class="carousel-item">
+                    <div class="row justify-content-center g-4">
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item p-4">
+                                <div class="team-inner rounded">
+                                    <div class="team-img">
+                                        <img src="img/" class="img-fluid rounded-top w-100" alt="Image">
+                                    </div>
+                                    <div class="bg-light rounded-bottom text-center py-4">
+                                        <h4 class="mb-3">Jorge Luis Torrico Caballero</h4>
+                                        <p class="mb-0">Colaborador</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+    
+                <!-- Octavo elemento del carrusel -->
+                <!-- <div class="carousel-item">
+                    <div class="row justify-content-center g-4">
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="team-item p-4">
+                                <div class="team-inner rounded">
+                                    <div class="team-img">
+                                        <img src="img/Estefania.png" class="img-fluid rounded-top w-100" alt="Image">
+                                    </div>
+                                    <div class="bg-light rounded-bottom text-center py-4">
+                                        <h4 class="mb-3">Estefania Victoria Martínez Mayorga</h4>
+                                        <p class="mb-0">Cargo: Colaborador</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+    
+            <!-- Botones de control del carrusel -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#teamCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#teamCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    
+    <!-- Nuestro Equipo Carousel End -->
+
+    <!-- Team End -->
+
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-12 text-center text-md-start mb-md-0">
+                    <span class="text-body"><a href="#" class="border-bottom text-white"><i
+                                class="fas fa-copyright text-light me-2"></i>2024 BVO</a>. Todos los derechos
+                        reservados. Todos los contenidos de este sitio están protegidos por derechos de autor y no
+                        pueden ser reproducidos sin permiso expreso</span>
+                </div>
+                <div class="col-md-6 text-center text-md-end text-body">
+                    <!-- Back to Top -->
+                    <a href="#" class="btn btn-secondary btn-lg-square rounded-circle back-to-top"><i
+                            class="fa fa-arrow-up"></i></a>
+
+                    <!-- JavaScript Libraries -->
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+                    <script src="lib/wow/wow.min.js"></script>
+                    <script src="lib/easing/easing.min.js"></script>
+                    <script src="lib/waypoints/waypoints.min.js"></script>
+                    <script src="lib/counterup/counterup.min.js"></script>
+                    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+                    <!-- Template Javascript -->
+                    <script src="js/main.js"></script>
+</body>
+
+</html>
