@@ -290,31 +290,25 @@ body {
 .carousel-image {
     width: 100%;
     height: 100%;
-    max-height: 400px;
-    /* Para pantallas más grandes */
-    object-fit: contain;
-    /* Para cubrir el contenedor sin distorsión */
+    max-height: 400px; /* Para pantallas más grandes */
+    object-fit: contain; /* Para cubrir el contenedor sin distorsión */
 }
 
 @media (max-width: 768px) {
     .carousel-image {
-        height: 100%;
-        /* Ajusta la altura de la imagen en dispositivos móviles */
+        height: 100%; /* Ajusta la altura de la imagen en dispositivos móviles */
         /* Limita la altura de la imagen en dispositivos móviles */
-        object-fit: contain;
-        /* Asegura que la imagen se vea completa en pantallas pequeñas */
+        object-fit: contain; /* Asegura que la imagen se vea completa en pantallas pequeñas */
     }
 }
 
 .team-item {
-    padding: 1rem;
-    /* Ajusta el padding para reducir el tamaño en móviles */
+    padding: 1rem; /* Ajusta el padding para reducir el tamaño en móviles */
 }
 
 @media (max-width: 768px) {
     .team-item {
-        padding: 0.5rem;
-        /* Menos padding en móviles para mejor ajuste */
+        padding: 0.5rem; /* Menos padding en móviles para mejor ajuste */
     }
 }
 
@@ -371,7 +365,7 @@ body {
 }
 
 .carousel .carousel-inner .carousel-item {
-    position: center;
+    position: relative;
 }
 
 .carousel .carousel-inner .carousel-item .carousel-caption-1 {
@@ -425,18 +419,13 @@ body {
 
 @media (max-width: 992px) {
     .carousel .carousel-inner .carousel-item {
-        max-width: auto;
-        /* Reducción proporcional en pantallas más pequeñas */
         height: auto;
-        object-fit: cover;
-        object-position: center;
+      
     }
 
-
     .carousel .carousel-inner .carousel-item img {
-        max-width: 80%;
-        /* Reducción proporcional en pantallas más pequeñas */
-        height: auto;
+        height: 700px;
+        object-fit: cover;
     }
 
 
