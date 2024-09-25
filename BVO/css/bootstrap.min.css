@@ -6553,10 +6553,6 @@ fieldset:disabled .btn {
     transition: transform .6s ease-in-out
 }
 
-.carousel-team{
-    
-}
-
 @media(prefers-reduced-motion: reduce) {
     .carousel-item {
         transition: none
@@ -6723,7 +6719,6 @@ fieldset:disabled .btn {
     padding-bottom: 1.25rem;
     color: #fff;
     text-align: center
-    transform: translateY(-50%);
 }
 
 .carousel-dark .carousel-control-prev-icon,
