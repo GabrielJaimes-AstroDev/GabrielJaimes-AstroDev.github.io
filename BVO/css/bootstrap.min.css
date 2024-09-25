@@ -6545,11 +6545,16 @@ fieldset:disabled .btn {
 .carousel-item {
     position: relative;
     display: none;
+    min-height: 300px;
     float: left;
     width: 100%;
     margin-right: -100%;
     backface-visibility: hidden;
     transition: transform .6s ease-in-out
+}
+
+.carousel-team{
+    
 }
 
 @media(prefers-reduced-motion: reduce) {
@@ -6718,6 +6723,7 @@ fieldset:disabled .btn {
     padding-bottom: 1.25rem;
     color: #fff;
     text-align: center
+    transform: translateY(-50%);
 }
 
 .carousel-dark .carousel-control-prev-icon,
